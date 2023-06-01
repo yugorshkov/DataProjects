@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "insights-from-failed-orders"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "insights_from_failed_orders"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.0.0"
+jupyterlab = "^3.6.3"
+seaborn = "^0.12.2"
+folium = "^0.14.0"
+h3 = "^3.7.6"
+geopandas = "^0.13.0"
+mapclassify = "^2.5.0"
+black = "^23.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
