@@ -160,4 +160,4 @@ cython_debug/
 #.idea/
 
 *.html
-delivery_duration_prediction/catboost_info/1
+delivery_duration_prediction/catboost_info/
