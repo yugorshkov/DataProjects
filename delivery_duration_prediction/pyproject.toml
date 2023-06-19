@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "delivery-duration-prediction"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "delivery_duration_prediction"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.0.2"
+ipykernel = "^6.23.1"
+scikit-learn = "^1.2.2"
+catboost = "^1.2"
+missingno = "^0.5.2"
+shap = "^0.41.0"
+boruta = "^0.3"
+clearml = "^1.11.0"
+borutashap = "^1.0.16"
+black = "^23.3.0"
+category-encoders = "^2.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
